@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+  - 2.1.5
+script:
+  - bundle exec rubocop
+ notifications:
+    slack: nonamed-hq:x23cfOE12hD5Q0dCJDGpaMyw
